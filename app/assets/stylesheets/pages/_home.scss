@@ -1,12 +1,197 @@
 // Specific CSS for your home-page
 h1 {
   color: black;
-  font-size: 96px;
+  font-size: 90px;
   text-decoration: underline;
-
+  text-decoration-thickness: 1px;
 }
 
 p {
   color: #687086;
-  font-size: 28px;
+  font-size: 22px;
+  width: 85%;
 }
+
+html, body {
+  height: 100%;
+}
+
+.div-logo {
+  margin-bottom: 40px;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+
+.col {
+  padding-right: 0px;
+  padding-left: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+}
+
+.colonn {
+  height: 100%;
+  background-color: #F7F9FB;
+  margin: none;
+}
+
+.tableau {
+  display: flex;
+  justify-content: center;
+  margin-top: -17%;
+}
+
+.text {
+  width: 65%;
+}
+
+ .ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letters {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.board-1 {
+    animation: float 6s ease-in-out infinite;
+    margin-top: -30%;
+    margin-left: 40%;
+}
+
+.board {
+  animation: float 6s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes float {
+  0% {
+    border-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    border-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    border-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
+
+#mc_embed_signup_scroll {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: none;
+}
+
+#mce-EMAIL {
+  width: 120%;
+  height: 65px;
+  background-color: #F7F9FB;
+  border-radius: 50px;
+  border-style: none;
+  font-family: "Questrial";
+  color: #687086;
+  outline: none;
+  padding-left: 30px;
+}
+
+.button {
+  width: 110%;
+  background-color: black;
+  margin-left: 10px;
+  border-style: none;
+  height: 65px;
+  color: white;
+  border-radius: 50px;
+  font-family: "Questrial";
+  transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  outline: none;
+}
+
+.button:hover{
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+
+.button:hover:after {
+  opacity: 1;
+  right: 10px;
+  content-color: black;
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+@media(max-width: 1024px) {
+    section {
+      grid-template-columns: 1fr;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+    h1 {
+      font-size: 70px;
+      text-align: center;
+    }
+    p {
+      margin-left: 35px;
+    }
+    .sign-up-form {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    #mce-EMAIL {
+      width: 320px;
+      padding-left: 10px;
+      padding-right: 45px;
+    }
+    .button {
+      width: 200px;
+      font-size: 15px;
+    }
+    .logo {
+      margin-bottom: 10px;
+    }
+    .div-logo {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .col {
+      width: 100%;
+    }
+  }
+
+
