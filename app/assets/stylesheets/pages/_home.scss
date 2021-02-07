@@ -199,4 +199,20 @@ section {
     }
   }
 
+  @media(max-width: 400px) {
+    h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+    #mce-EMAIL {
+      width: 250px;
+      padding-left: 10px;
+      padding-right: 45px;
+    }
+    .button {
+      width: 150px;
+      font-size: 11px;
+    }
+  }
+
 
