@@ -209,6 +209,10 @@ section {
       font-size: 50px;
       text-align: center;
     }
+    p {
+      text-align: center;
+      margin-left: 15px;
+    }
     #mc_embed_signup_scroll {
       flex-wrap: wrap;
       text-align: center;
@@ -231,6 +235,9 @@ section {
     }
     .board-1 {
       display: none;
+    }
+    .colonn {
+      padding: 0px;
     }
   }
 
