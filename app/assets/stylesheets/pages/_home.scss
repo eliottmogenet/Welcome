@@ -200,18 +200,34 @@ section {
   }
 
   @media(max-width: 400px) {
+    section {
+      grid-template-columns: 1fr;
+      flex-wrap: wrap;
+      text-align: center;
+    }
     h1 {
       font-size: 50px;
       text-align: center;
     }
+    #mc_embed_signup_scroll {
+      flex-wrap: wrap;
+      text-align: center;
+
+    }
     #mce-EMAIL {
-      width: 250px;
-      padding-left: 10px;
-      padding-right: 45px;
+      width: 400px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
     .button {
-      width: 150px;
-      font-size: 11px;
+      width: 260px;
+      font-size: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 10px;
+    }
+    .tableau {
+      width: 80%;
     }
   }
 
