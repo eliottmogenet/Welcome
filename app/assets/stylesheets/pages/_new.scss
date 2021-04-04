@@ -53,6 +53,7 @@ h4 {
 
 .section4{
   height: 50%;
+  padding-bottom: 20%;
 }
 
 .row-title {
@@ -245,6 +246,12 @@ h3 {
 
 @media(max-width: 1024px) {
 
+
+  .marc {
+      display: none;
+    }
+
+
   .view {
     display: none;
   }
@@ -328,6 +335,15 @@ h3 {
   }
 
   @media(max-width: 500px) {
+
+
+    .dec {
+      margin-left: 25%;
+    }
+
+    .marc {
+      display: none;
+    }
 
     .cover2 {
       display:block;
