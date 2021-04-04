@@ -1,8 +1,7 @@
 // Specific CSS for your home-page
 h1 {
   color: black;
-  font-size: 90px;
-  text-decoration: underline;
+  font-size: 80px;
   text-decoration-thickness: 1px;
 }
 
@@ -17,19 +16,22 @@ html, body {
 }
 
 .div-logo {
-  margin-bottom: 40px;
+  margin-top: -50px;
+  margin-bottom: 200px;
 }
 
 section {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  margin-right: 0px;
 }
 
-
+.sign-up-form {
+  margin-top: 40px;
+}
 
 .col {
+  height: 100%;
   padding-right: 0px;
   padding-left: 0.5px;
   display: flex;
@@ -37,20 +39,14 @@ section {
   align-items : center;
 }
 
-.colonn {
-  height: 100%;
-  background-color: #F7F9FB;
+.new_colonn {
+  display: flex;
   margin: none;
 }
 
-.tableau {
-  display: flex;
-  justify-content: center;
-  margin-top: -17%;
-}
 
 .text {
-  width: 65%;
+  width: 70%;
 }
 
  .ml14 .text-wrapper {
@@ -79,8 +75,8 @@ section {
 
 .board-1 {
     animation: float 6s ease-in-out infinite;
-    margin-top: -30%;
-    margin-left: 40%;
+    margin-top: 500px;
+    position: absolute;
 }
 
 .board {
@@ -140,7 +136,7 @@ section {
 }
 
 .button:hover{
-  background-color: white;
+  background-color: #F7F9FB;
   border-width: 1px;
   border-style: solid;
   border-color: black;
@@ -240,5 +236,32 @@ section {
       padding: 0px;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

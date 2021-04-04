@@ -1,0 +1,444 @@
+
+.marc {
+  position: absolute;
+  margin-bottom: 100%;
+  margin-right: 75%;
+
+}
+
+.logo {
+  padding-bottom: 15%;
+}
+
+
+.demo {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  font-family: "Questrial";
+  padding: 25px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resp {
+  display: none;
+}
+
+
+h4 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.marge {
+  margin-bottom: 20px;
+}
+
+.demo:hover {
+  background-color: #F7F9FB;
+  color: black;
+  text-decoration: none;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.new_colonn {
+  margin: none;
+}
+
+
+.section4{
+  height: 50%;
+}
+
+.row-title {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.row-title2 {
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  margin-bottom: none;
+}
+
+h2 {
+  color: black;
+  font-size: 70px;
+}
+
+h3 {
+  color: black;
+  font-size: 50px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.steps {
+  background-color: white;
+  width: 900px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.collapsed {
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.collapsed:hover {
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.card-header {
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+
+}
+
+.card-body img {
+  margin:none;
+}
+
+.card-header:hover {
+  background-color: black;
+}
+
+
+.buttons {
+  padding-left: 20px;
+  width: 35%;
+  font-family: "Questrial";
+  padding: 10px;
+  margin-bottom: 15px;
+  p {
+    font-size: 22px;
+  }
+}
+
+.info {
+  width: 70%;
+  background-color: #F7F9FB;
+  height: 90%;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+#etape1:hover {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+   p {
+    color: white;
+  }
+}
+
+#etape2:hover {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+   p {
+    color: white;
+  }
+}
+
+#etape3:hover {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+   p {
+    color: white;
+  }
+}
+
+.job {
+  text-align: center;
+}
+
+.active {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+   p {
+    color: white;
+  }
+}
+
+.buttons {
+  margin-top: 3%;
+  padding-right: 2%;
+  padding-left: 3%;
+}
+
+.button3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.button4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.section4 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.demo2 {
+  font-size: 20px;
+   background-color: white;
+  color: black;
+  font-family: "Questrial";
+  padding: 25px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 2%;
+}
+
+.decalage {
+  margin-left: 80px;
+}
+
+.other {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.other2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cover2 {
+  display: none;
+}
+
+@media(max-width: 1024px) {
+
+  .view {
+    display: none;
+  }
+
+  #merde {
+  display:none;
+    }
+
+  .other {
+  grid-template-columns: 1fr;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+  .other2 img {
+  width: 100%;
+}
+
+
+
+    .decalage {
+    margin-left: 30px;
+  }
+
+
+    .new_colonn {
+      display: none;
+    }
+
+    .board-1 {
+      display: none;
+    }
+
+    section {
+      grid-template-columns: 1fr;
+      flex-wrap: wrap;
+      text-align: center;
+      }
+
+    .buttons {
+      width: 100%;
+      text-wrap: wrap;
+  }
+    .info {
+      width: 100%;
+      text-wrap: wrap;
+    }
+    h1 {
+      font-size: 70px;
+      text-align: center;
+    }
+    p {
+      margin-left: 35px;
+    }
+    .sign-up-form {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    #mce-EMAIL {
+      width: 320px;
+      padding-left: 10px;
+      padding-right: 45px;
+    }
+    .button {
+      width: 200px;
+      font-size: 15px;
+    }
+    .logo {
+      margin-bottom: 10px;
+    }
+    .div-logo {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .col {
+      width: 100%;
+    }
+    .colonn {
+      padding-bottom: 30px;
+    }
+  }
+
+  @media(max-width: 500px) {
+
+    .cover2 {
+      display:block;
+    }
+
+    .cover {
+      display: none;
+    }
+
+    .acpr {
+      width: 100px;
+    }
+
+    .steps {
+  display: none;
+}
+
+    .resp {
+      display: block;
+      margin-bottom: 40px;
+    }
+
+
+    #screen1 img {
+
+    }
+
+    #merde {
+      display:none;
+
+    }
+
+    .col {
+      grid-template-columns: 1fr;
+      flex-wrap: wrap;
+      text-align: center;
+
+      button {
+        display: none;
+      }
+
+    }
+
+    #destroy {
+      display: none;
+    }
+
+    section {
+      grid-template-columns: 1fr;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    h3 {
+      font-size: 40px;
+    }
+
+    .new_colonn {
+      display: none;
+    }
+
+    .board-1 {
+      display: none;
+    }
+
+    .buttons {
+      width: 100%;
+      text-wrap: wrap;
+  }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    #mc_embed_signup_scroll {
+      flex-wrap: wrap;
+      text-align: center;
+
+    }
+    #mce-EMAIL {
+      width: 400px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .button {
+      width: 260px;
+      font-size: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 10px;
+    }
+    .tableau {
+      display: none;
+    }
+    .board-1 {
+      display: none;
+    }
+    .colonn {
+      padding: 0px;
+    }
+  }
+
