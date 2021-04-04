@@ -52,8 +52,8 @@ h4 {
 
 
 .section4{
-  height: 50%;
-  padding-bottom: 20%;
+  height: 70%;
+  padding-bottom: 30%;
 }
 
 .row-title {
@@ -336,9 +336,15 @@ h3 {
 
   @media(max-width: 500px) {
 
+    #unic {
+      width: 50%;
+      margin-left: 25%;
+    }
+
 
     .dec {
       margin-left: 25%;
+      font-size: 18px;
     }
 
     .marc {
@@ -424,7 +430,7 @@ h3 {
       width: 100%;
     }
     h1 {
-      font-size: 50px;
+      font-size: 45px;
       text-align: center;
     }
     p {
