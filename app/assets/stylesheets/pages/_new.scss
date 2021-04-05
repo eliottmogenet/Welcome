@@ -244,7 +244,22 @@ h3 {
   display: none;
 }
 
+#cfo {
+  margin-left: 40%
+}
+
+.blanc {
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
 @media(max-width: 1024px) {
+
+  .blanc {
+      width: 30%;
+      margin-left: 35%;
+    }
+
 
 
   .marc {
@@ -336,6 +351,23 @@ h3 {
 
   @media(max-width: 500px) {
 
+    .blanc {
+      width: 30%;
+      margin-left: 35%;
+    }
+
+
+    #cfo {
+      margin-left: 20%;
+    }
+
+    #sim {
+      display: none;
+    }
+
+    .letters {
+      text-align: center;
+    }
     #unic {
       width: 50%;
       margin-left: 25%;
@@ -382,9 +414,12 @@ h3 {
 
     }
 
+    .salles {
+      margin-left: 8%;
+    }
+
     .col {
       grid-template-columns: 1fr;
-      flex-wrap: wrap;
       text-align: center;
 
       button {
