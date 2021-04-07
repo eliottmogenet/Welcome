@@ -1,43 +1,102 @@
 
-<section class="d-flex justify-content-center">
-  <div class="card">
-  <form action="" id="cakeform" onsubmit="return false;">
-   <fieldset>
 
-    <p>
-    <label >Le salaire brut mensuel est de </label>
-    <input type="text"  id="theinscription"
-    name="theinscription" value="Enter Inscription" onkeyup="getTotal()"/>
-    </p>
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQHDN93');</script>
+</head>
 
-    <p>
-    <label>La période d'essai dure : </label>
+
+<body>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQHDN93');</script>
+
+<header>
+  <%= cl_image_tag("Group_51_thxzi7", width: "10%", height: "auto", class: "blanc") %>
+</header>
+
+<section style="background-color: black">
+
+
+    <div id="sim" class="col col-lg-5 col-sm-0 col-md-0">
+      <div class="view">
+         <form action="" id="cakeform" onsubmit="return false;">
+          <fieldset>
+            <h4>Simulez votre avance 💸</h4>
+            <p>
+              <label style="margin-left: 15%">Le salaire brut mensuel est de </label>
+              <input type="text"  style="margin-left: 15%; text-align: center; border-top:none; border-left:none; border-right:none;outline: none;" id="theinscription"
+                name="theinscription" value="4100" onkeyup="getTotal()"/>
+            </p>
+
+              <p>
+                <label style="margin-left: 15%">Vous souhaitez </label>
 
     <select id="filling" name='filling'
-    onchange="getTotal()">
-    <option value="None">Select Filling</option>
+    onchange="getTotal()" style="border: none;outline: none;">
     <option value="2mois">2 mois</option>
     <option value="3mois">3 mois</option>
     <option value="4mois">4 mois</option>
+    <option value="5mois">5 mois</option>
     <option value="6mois">6 mois</option>
    </select>
    </p>
     <hr>
-    <div id="totalPrice" style="color: black; font-size: 45px;"></div>
-    <div id="remboursement" style="color: black"></div>
+    <div id="totalPrice" style="color: black; font-size: 65px;">8200€</div>
+    <p style="margin-left: 7%"> dégagé en trésorerie par recrutement. </p>
+    <div id="remboursement" style="color: black">488€/mois</div>
+    <p style="margin-left: 7%">seulement à rembourser sur 12 mois après l'avance.</p>
+    <div><button class="demo" type="submit" onclick="location.href='https://calendly.com/welcome-demo/demo-welcome-fr-cfo'" style="margin-left: 10px%">Optimiser ma trésorerie 💸</button>
+    </div>
     </fieldset>
-</form>
+ </form>
+</div>
 </div>
 </section>
 
-<style>
-  .card {
-    border-color: black;
-    border-size: 2px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px;
-  }
-</style>
+
+
+<div class="safe" style="background-color: black;">
+      <h4 style="color: white; font-family: Questrial";>Un service réglementé et sécurisé</h4>
+          <%= cl_image_tag("svgg_lietxu", width: "5%", height: "auto", class: "acpr") %>
+</div>
+  <div style="background-color: black">
+    <div class="container">
+      <div class="title" style="text-align: center; padding-top: 5%; padding-bottom: 5%;">
+        <h3 style="color: white"> + 100 directeurs financiers et chefs d’entreprises
+libèrent de la trésorerie grâce à Welcome </h3>
+    <button id="cfo" type="submit" class="demo2" onclick="location.href='https://calendly.com/welcome-demo/demo-welcome-fr-cfo'" style="margin-top: 20px;display: flex; justify-content: center;">Réservez une démo</button>
+      </div>
+      <div class="cover" style="padding-bottom: 10%;">
+        <%= cl_image_tag("Group_35_u7ldcd", width: "90%", height: "auto") %>
+      </div>
+        <div class="cover2" style="padding-bottom: 10%;">
+        <%= cl_image_tag("Group_38_tfikbr", width: "100%", height: "auto") %>
+      </div>
+  </div>
+  </div>
+    <div style="background-color: black">
+    <div class="container">
+      <div class="title" style="text-align: center; padding-top: 5%; padding-bottom: 5%;">
+        <h2 style="color: white"> En 5 minutes, dégagez
+jusqu’à <br> 50 000€ de trésorerie. </h2>
+    <button id="cfo" type="submit" onclick="location.href='https://calendly.com/welcome-demo/demo-welcome-fr-cfo'" class="demo2" onclick="" style="margin-top: 20px; display: flex; justify-content: center;">Réservez une démo</button>
+      </div>
+      <div class="cover" style="padding-bottom: 10%;">
+        <%= cl_image_tag("Group_37_x4qkxo", width: "90%", height: "auto") %>
+      </div>
+      <div class="cover2" style="padding-bottom: 10%;">
+        <%= cl_image_tag("Group_40_jzkkmn", width: "90%", height: "auto") %>
+      </div>
+  </div>
+  </div>
+
+</body>
 
 
 <script>
@@ -46,6 +105,7 @@ filling_prices["None"]=0;
 filling_prices["2mois"]=2;
 filling_prices["3mois"]=3;
 filling_prices["4mois"]=4;
+filling_prices["5mois"]=5;
 filling_prices["6mois"]=6;
 
 function getFillingPrice()
@@ -84,7 +144,7 @@ function getTotal()
     //Here we get the total price by calling our function
     //Each function returns a number so by calling them we add the values they return together
     var cakePrice = getFillingPrice() * getQuantity();
-    var remb = Math.ceil((cakePrice * 1.07)/18);
+    var remb = Math.ceil((cakePrice * 1.07)/12);
 
     //display the result
     document.getElementById('totalPrice').innerHTML =

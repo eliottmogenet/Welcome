@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/usa' => 'pages#usa'
   get '/sales_fr' => 'pages#sales_fr'
   get '/cfo' => 'pages#cfo'
+  get '/thanks' => 'pages#thanks'
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
